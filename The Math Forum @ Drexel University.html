@@ -1,0 +1,446 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+     
+  <title>The Math Forum @ Drexel University</title>
+<style type="text/css">
+.isolated ul {
+list-style-type:disc;
+}
+</style>
+
+
+  <title>The Math Forum @ Drexel University</title>
+  
+  <link rel="stylesheet" href="/css/reset-min.css" type="text/css"  charset="utf-8" >
+  <link rel="stylesheet" href="/css/base-min.css"  type="text/css"  charset="utf-8" >
+  <link rel="stylesheet" href="/css/template.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="/css/announce.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" charset="utf-8">
+  <link rel="stylesheet" href="/kenken/css/kenken.css" type="text/css" media="screen" charset="utf-8" />
+  <script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="/js/jquery.announce.js"></script>
+  <script type="text/javascript" src="/js/jquery.login.js"></script>
+  <script type="text/javascript" src="/js/jquery.login.switch.js"></script>
+  <script type="text/javascript">
+        var jq = jQuery.noConflict();
+        jq().loginCheck(); // do the login check off the bat, don't wait for document.ready
+        jq(document).ready( function() {
+            jq('.announce').announce();
+            jq("a:contains('Log In')").loginSwitch({'message' : 'My PoW Work', 'href' : '/pows/portal.htm'});
+        })
+  </script>
+
+  <script type="text/javascript" src="/js/jquery.alerts.js"></script>
+  <script type="text/javascript">
+	function searchBox() {
+		jq('#search_text').css("color", "black");
+		if('Search' == jq('#search_text').val()){
+			jq('#search_text').val('');
+		}
+	}
+	function searchBoxBlur() {
+		if('' == jq('#search_text').val()) {
+			jq('#search_text').css("color", "gray");
+			jq('#search_text').val('Search');
+		}
+		
+	}
+  </script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+  <meta name="description" content="The Math Forum is the comprehensive resource for math
+  education on the Internet. Some features include a K-12 math expert help service, an
+  extensive database of math sites, online resources for teaching and learning
+  math, plus much more.">
+
+  <meta name="keywords" content="math help mathematics homework  education curriculum 
+  algebra geometry trig trigonometry calculus volume area perimeter 
+  circumference quadratic pythagorean prime elementary secondary
+  college percent percentage decimal fraction addition subtraction
+  multiplication division measurement logarithms fibonacci calculate
+  calculating numbers">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<img src="/img/logo.jpg" alt="Drexel University"/>
+				<a href="http://mathforum.org/"><img src="/img/math-forum-logo.jpg" alt="The Math Forum @ Drexel"/></a>
+			</div> <!-- end of #logo -->
+			<div id="header-ad">
+                                <a href="/redirect-banner2.html"><img src="/images/banner2.jpg" alt="Ad"/></a>
+			</div> <!-- end of #header-ad -->
+		</div> <!-- end of #header -->
+		<div id="nav-bar" class="noprint">
+
+
+			<!-- Start Top Tab Navigtaion -->
+			<div id="tabNav">
+				<!-- Start First Level Nav -->
+				<ul>
+					<li><a href="/"><span>Home</span></a></li>
+						<!-- HIDDEN "Home" Second Level Nav 
+						<ul id="secondary">
+							<li><a href="index.html">Welcome</a></li>
+							<li><a href="/whatsnew.html">What's New</a></li>
+							<li><a href="/students/">Students</a></li>
+							<li><a href="/teachers/">Educators</a></li>
+							<li><a href="parents.citizens.html">Parents & Citizens</a></li>
+							<li><a href="/research.html">Researchers</a></li>
+						</ul>
+						-->
+					<li><a href="/math_help_landing.html"><span>Math Help</span></a>
+						<!-- HIDDEN "Math Help" Second Level Nav 
+						<ul id="secondary">
+							<li><a href="/dr.math/">Ask Dr. Math</a></li>
+							<li><a href="/pubs/dr.mathbooks.html">Ask Dr. Math Books</a></li>
+							<li><a href="/library/">Internet Math Library</a></li>
+							<li><a href="/t2t/">Teacher2Teacher</a></li>
+						</ul>
+						-->
+					</li>
+					<li><a href="/problems_puzzles_landing.html" class="active"><span>Problems & Puzzles</span></a></li>
+						<!-- "Problems & Puzzles" Second Level Nav -->
+						<ul id="secondary">
+							<li><a href="/pows/" class="active">Current Problems of the Week</a></li>
+							<li><a href="/library/problems/">Problems of the Week Library</a></li>
+							<li><a href="http://mathforum.statestandards.org/wmmf/">Write Math with the Math Forum</a></li>
+							<li><a href="/pow/other.html">Other Problems and Puzzles</a></li>
+						</ul>
+					<li><a href="/math_talk_landing.html"><span>Math Talk</span></a>
+						<!-- HIDDEN "Math Talk" Second Level Nav 
+						<ul id="secondary">
+							<li><a href="/kb/">Discussion Groups</a></li>
+							<li><a href="/t2t/">Teacher2Teacher</a></li>
+							<li><a href="/kb/forum.jspa?forumID=128">geometry.pre-college</a></li>
+							<li><a href="/kb/forum.jspa?forumID=206">math-teach</a></li>
+						</ul>
+						-->
+					</li>
+					<li><a href="/resources_tools_landing.html"><span>Resources & Tools</span></a>
+						<!-- HIDDEN "Resources & Tools" Second Level Nav 
+						<ul id="secondary">
+							<li><a href="/mathtools/">Math Tools</a></li>
+							<li><a href="/te/">Teacher Exchange</a></li>
+							<li><a href="/library/">Internet Math Library</a></li>
+							<li><a href="/electronic.newsletter/">Newsletter</a></li>
+							<li><a href="/social/">Math Community Issues</a></li>
+							<li><a href="/workshops/">Workshops</a></li>
+						</ul>
+						-->
+					</li>
+					<li><a href="/about_landing.html"><span>About The Math Forum</span></a>
+						<!-- HIDDEN "About The Math Forum" Second Level Nav 
+						<ul id="secondary">
+							<li><a href="/about.forum.html">Mission and History</a></li>
+							<li><a href="/staff.html">Our Team</a></li>
+							<li><a href="/appreciation.html">Collaborators</a></li>
+							<li><a href="/forum.awards.html">In the News</a></li>
+							<li><a href="/web.comments/help.html">Help</a></li>
+							<li><a href="/special.html">Site Map</a></li>
+						</ul>
+						-->
+					</li>
+					<li><a href="/store_landing.html"><span>Store</span></a>
+						<!-- HIDDEN "Store" Second Level Nav 
+						<ul id="secondary">
+							<li><a href="/pow/productinfo.html">Educator Packages</a></li>
+							<li><a href="/pow/productinfo.html">Student Memberships</a></li>
+							<li><a href="/pubs/dr.mathbooks.html">Ask Dr. Math Books</a></li>
+							<li><a href="http://www.drexel.com/Fields_of_Study/Education.shtml">Teacher Courses</a></li>
+							<li><a href="/join.forum.html">Join The Math Forum</a></li>
+						</ul>
+						-->
+					</li>
+					<li>
+						<a onclick="return false;" style="text-decoration: none; margin-top:1px">
+						<span>
+							<form action="http://mathforum.org/search/myresults.html" method="post" name="searchForm">
+								<input type="hidden" name="ctrlfile" value="/var/www/search/ctrl/all.search.ctrl"/>
+								<input id="search_text" type="text" name="textsearch" size="15" length="20" style="margin-top: 2px; color: gray;" value="Search" onclick="searchBox()" onblur="searchBoxBlur()"/>
+							</form>
+						</span>
+						</a>
+					</li>
+				</ul>
+				<!-- End First Level Nav -->
+			</div> <!-- end of #tabNav -->
+			<div id="secondaryNavArea"><!-- secondary tabs appear within this area--></div>
+			<!-- End Top Tab Navigtaion -->
+		</div> <!-- end of #nav-bar -->
+		<div class="for-print" style="clear:both;"><br style="clear:both;"/> </div>
+		<div id="column-wrapper">
+			<div id="left-column"  class="noprint">
+				<div id="mf-links">
+							<p><a href="https://login.mathforum.org/cas/login?service=http://mathforum.org/pows/portal.htm">Log In</a></p>
+							<br/>
+                                                        <p><a href="/renewal.html">Membership Expired?<br/>Renew Now</a></p>
+
+
+							<br/>
+							<div>
+							Purchasing options<br/>
+							<img src="/img/diamond.gif"> <a href="/products/">Buy Now</a><br>
+							<img src="/img/diamond.gif"> <a href="/pow/productinfo.html">Compare features</a><br>
+							<img src="/img/diamond.gif"> <a href="/products/trial.html">Trial account</a><br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/pow/teacher/intro/TrialAccountintro.html">Trial Intro</a> [Flash]<br>
+							<img src="/img/diamond.gif"> <a href="/pd/">Professional Development</a>
+							</div>
+							
+							<br/>
+							<div>
+							A Closer Look:<br/>
+							<img src="/img/diamond.gif"> <a href="/pow/teacher/samples.html">Sample Problems</a> with<br/>
+							supplemental materials
+							</div>
+							
+							<br/>
+							<div>
+
+							Resources<br/>
+							<img alt="" src="/img/diamond.gif"> <a href="/pow/support/">Calendar</a><br>
+                                                        <img alt="" src="/img/diamond.gif"> <a href="/blogs/powerfulideas/">PoWerful Ideas Newsletter</a><br>							
+							<img alt="" src="/img/diamond.gif"> <a href="/pow/support/activityseries">Problem Solving Activities</a><br>
+							<img alt="" src="/img/diamond.gif"> <a href="/pow/teacher/">Teaching with PoWs</a><br>
+							</div>
+							
+							<br/>
+							<a href="/pow/improvements.html">Recent Improvements</a>
+							<br/>
+							<br/>
+							<div>
+							Help<br/>
+							<img src="/img/diamond.gif"> <a href="/pow/accounthelp/">Account Help</a><br>
+							<img src="/img/diamond.gif"> <a href="/pow/teacher/guide.pdf">Teacher's Guide</a> [PDF]<br>
+							<img src="/img/diamond.gif"> <a href="/pow/teacher/intro/">Intro Videos</a><br>
+							</div>
+
+			</div> <!-- end of #mf-links -->
+			<br/>
+			<div id="left-column-ad" align="center">
+					<a href="/redirect-pp_verticalbanner.html"><img src="/images/template_pp_verticalbanner.jpg" alt="sponsor"/></a>
+			</div>
+			</div> <!-- end of #left-nav -->
+			
+			<!-- body content information -->
+			<div id="content">
+				<div id="main-content" style="_margin-left:-30px;zoom=100%;">
+	  			
+
+
+<!------------------------------- Begin Content ------------------------------>
+
+ 
+<div class="isolated">
+
+<p align="center">
+<img src="images/formembersbutton.jpg" border="0">
+<nobr><a href="/funpow/"><img src="images/funpowbutton.jpg" border="0"></a> 
+<a href="/prealgpow/"><img src="images/prealgpowbutton.jpg" border="0"></a> <a href="/algpow/"><img src="images/algpowbutton.jpg" border="0"></a>
+<a href="/geopow/"><img src="images/geopowbutton.jpg" border="0"></a>
+</nobr><br>
+<nobr>
+<img src="images/forfree.jpg" border="0">
+<a href="/fe"><img src="images/financialbutton.jpg" border="0"></a>
+<a href="/kenken/"><img src="images/kenkenbutton.jpg" border="0"></a>
+<a href="/wagon/"><img src="images/macalesterbutton.jpg" border="0"></a>
+<a href="/tpow/"><img src="images/tpowsbutton.jpg" border="0"></a>
+<a href="/yeargame/2011/"><img src="images/yeargamebutton.jpg" border="0"></a>
+</nobr></p>
+
+<hr>
+
+
+<div class="announce"></div>
+<!--
+<p style="color:red;border: 1px solid red;padding:5px">The Problems of the Week will be unavailable Saturday, May 7th from 7:00-8:30am EDT while we apply software upgrades.</p>
+-->
+<!--
+<p><img width="48px" src="http://mathforum.org/images/survey_icon.png" style="float: left; padding-right: 10px"><strong style="background:#F4DC54;">Please Take Our Survey!</strong> 
+Teachers &mdash; we strive to provide you with the best resources for math education for you and your students. To help us better serve you please <a href="http://mathforum.org/pow/2010survey">take this 15 minute survey</a> about your experience with the Math Forum Problems of the Week.</p>
+<hr>
+
+<p align="center"><font color="#CC0000"><img src="/gifs/newest.gif" alt="New!"> <a href="/pd/july2010special.html"><strong>Special offer</a> through July 31, 2010</strong></font></p>
+
+<h3>Improving all the time!</h3>
+
+<blockquote>
+<p>
+We are regularly updating our Problems of the Week software to meet your needs. <a href="/pow/improvements.html">Learn more</a>.</p>
+<p>
+Our short <a href="/pow/teacher/intro/">introductory videos</a> can help you out with our program, from a <a href="/pow/teacher/intro_newpow/">tour</a> of the site to help <a href="/pow/teacher/intro/accountsetup.swf">setting up</a> your account or mentoring your students.
+</p>
+<p>
+Be sure to check out our free areas using the buttons above.
+</p>
+</blockquote>
+-->
+
+<div style="_width:45em;">
+<div style="float:left;width:48%">
+
+<h3>The Problems of the Week Program</h3>
+
+<p>The Math Forum offers an integrated program based on our award-winning Problems of the Week.
+The program has three components:</p>
+<ul>
+<li><b>Problems of the Week</b> (PoWs) and Write Math with the Math Forum, including teacher support materials.</li>
+<li>Problem Solving and Communication <b>Activity Series</b>, focused on strategic competence and writing fluency.</li>
+<li><b>Professional Development</b> for effective implementation, formative assessment, and building mathematical knowledge for teaching.</li>
+</ul>
+<p>
+Do the problems with your students, use the Activity Series to develop student confidence and higher order thinking skills, and collaborate with leading experts and fellow teachers through our professional development programs. More information about each component follows.
+</p>
+
+<a href="/pows/"><h3>Problems of the Week</h3></a>
+</p>
+
+<p>Problems of the Week (PoWs) are inventive, engaging challenges designed to get your students thinking, talking, and doing mathematics. <b>Current PoWs</b> cover Primary, Math Fundamentals, Pre-Algebra, Algebra, and Geometry. The <b>Problems Library</b> is an archive of all of the past PoWs that includes solutions sent in by students from all over the world, plus commentary from the Math Forum staff and mentors. It covers those same five Current PoW topics, plus Discrete Math and Trigonometry &amp; Calculus. <b>Write Math with the Math Forum</b> enables selection of problems by individual grade band, and aligns problems to common textbooks and to state standards.</p>
+
+<p>Students are encouraged to submit <b>solutions</b> explaining how they arrived at their answer, as the beginning of a process designed to develop their communication and mathematical thinking skills. These solutions may be <b>mentored</b> by volunteer or paid mentors, or by their own teacher. The Math Forum offers an instructional rubric for scoring student work and detailed instructions on giving helpful feedback to students. The mentoring process promotes reflective, thoughtful problem solving.</p>
+
+<p>Each Current PoW (and many problems in the Problems Library) comes with <b>supplemental materials</b>, including:</p>
+<ul>
+<li>Teacher Packets with implementation resources</li>
+<li>Activities from the Activity Series (described in the next column)</li>
+<li>A guide to related online resources</li>
+</ul>
+<p>The <b>online resources</b> give you background information about mathematical techniques in a problem, virtual manipulatives for explorations, and access to similar problems for practice. <b>Enhanced Problem Packets for Teachers</b> are PDF documents that include an overview of the problem, teaching suggestions, our solutions, and, for problems from our Library, sample student work with rubric-related commentary and suggested interventions.
+</p>
+
+<!--
+<p>
+<h3><a href="/pow/">Current Problems of the Week</a></h3>
+</p>
+
+<blockquote><a href="/funpow/">Math Fundamentals</a><br>
+<a href="/prealgpow/">Pre-Algebra</a><br>
+<a href="/algpow/">Algebra</a><br>
+<a href="/geopow/">Geometry</a>
+</blockquote>
+            
+<h3><a href="/library/problems/">Problems of the Week Library</a></h3>
+
+<h3><a href="http://mathforum.statestandards.org/wmmf/">Write Math with the Math Forum</a></h3>
+
+
+<p>&nbsp;
+</p>
+
+                
+<hr>
+
+<h3><a href="/pow/other.html">Other Problems and Puzzles</a></h3>
+<p>
+Looking for a weekly Math Counts stumper? a brain-teaser for your fourth graders? weekly questions for AP Calculus? college level puzzles? Check out these resources administered by others on the Internet.</p>
+
+-->
+</div>
+<div style="float:right;width:48%">             
+
+<a href="/pow/support/activityseries/"><h3>Problem Solving and Communication Activity Series</h3></a>
+</p>
+
+<p>The <b>Activity Series</b> provides a framework and classroom activities for those who wish to enhance student competence and confidence in problem solving and communication, and to share best practices with other teachers.</p>
+
+<p>With each Current PoW, the Math Forum <b>focuses on a particular problem solving strategy</b> or two, along with related communication skill development. In addition, we organize Problem Solving and Communication strategies in a <b>coherent sequence</b> to be studied throughout the year. Each unit contains <b>strategy development activities</b> that can be applied to any problem, and <b>student handouts</b> to help guide students as they learn the strategy. The goal is for students eventually to move between multiple strategies flexibly as they attempt to solve interesting problems.</p>
+
+
+<a href="/pd/"><h3>Professional Development</h3></a>
+
+<p>The Math Forum offers a free online <a href="/pd/orientation_pow/">orientation session</a> to get you started with your Problems of the Week membership.</p>
+
+<p>We also offer multiple online professional development <b>courses</b> for developing teacher use of technology in the classroom, mathematical knowledge for teaching, and implementation of a problem-solving and mathematical communication program. In these courses, participants will develop and apply NCTM process standards, explore problem-solving strategies, work on facilitating student thinking, practice formative assessment, and participate in ongoing communities of professionals.</p>
+
+<p>These six-week courses are offered on an ongoing basis through the year, and through them you can earn <b>Continuing Education Units</b>.</p>
+
+
+<!--
+<h3>Purchasing Options</strong></h3>
+
+<p>
+<a href="/products/"><img src="images/icon_buynow.gif" width="73" height="21" border="0" align="top"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;OR<br>
+
+<a href="/pow/productinfo.html">Compare features</a> of our various membership plans to find the right one for your needs, whether you need an individual membership, class, school, or district plan. <a href="/products/trial.html">Trial memberships</a> are available at the class level.</p>
+-->
+<!--
+<p><font color="#CC0000"><img src="/gifs/newest.gif" alt="New!"><strong>10% Discount</strong></font><br>through June 30, 2008 on <a href="/products/">Problems of the Week</a> class, school, or district memberships, or get an extra section of the Problems Library. The 10% discount is also good on our new <a href="/pd/">PD online courses</a>!</p>
+-->
+<!--
+<h3>Take a Look:</h3>
+
+<p><a href="/products/trial.html">Trial Account</a> - try a Class Membership for free. See the Current PoWs and up to 5 problems from the Library or Write Math; register students and monitor and mentor their submissions; apply for free mentoring if available.</p>
+
+<p><b>Sample Problems of the Week</b>, with Enhanced Problem Packets for Teachers [PDF format]
+
+<blockquote>
+Primary (K-2)<br>
+&nbsp;&nbsp;&nbsp;<a href="/workshops/documents/primarypowsample.pdf">Problem</a><br>
+Math Fundamentals (3-5)<br>
+&nbsp;&nbsp;&nbsp;<a href="/pow/teacher/samples/funpow.pdf">Problem</a>, &nbsp;&nbsp;<a href="/pow/teacher/samples/funpow_packet.pdf">Packet</a><br>
+Pre-Algebra (middle school)<br>
+&nbsp;&nbsp;&nbsp;<a href="/pow/teacher/samples/prealgpow.pdf">Problem</a>, &nbsp;&nbsp;<a href="/pow/teacher/samples/prealgpow_packet.pdf">Packet</a><br>
+Algebra (high school)<br>
+&nbsp;&nbsp;&nbsp;<a href="/pow/teacher/samples/algpow.pdf">Problem</a>, &nbsp;&nbsp;<a href="/pow/teacher/samples/algpow_packet.pdf">Packet</a><br>
+Geometry (high school)<br>
+&nbsp;&nbsp;&nbsp;<a href="/pow/teacher/samples/geopow.pdf">Problem</a>, &nbsp;&nbsp;<a href="/pow/teacher/samples/geopow_packet.pdf">Packet</a><br>
+Upper Level<br>
+&nbsp;&nbsp;&nbsp;<a href="/workshops/documents/upperpowsample.pdf">Problem</a>
+</blockquote>
+<p><a href="/pow/teacher/">Teacher Documents</a> - View the teacher documents and guidelines for classroom use including the step-by-step <a href="/pow/teacher/guide.pdf">Teacher's Guide</a> [PDF format].</p>
+
+<p><a href="/pow/teacher/articles.html">Articles on the Problems of the Week</a> including research on the Problems of the Week and their effectiveness.</p>
+-->
+
+<p align=center><img src="/geopow/images/20041206.problem.gif"></p>
+
+    </div>
+    <div style="clear:both">&nbsp;</div>
+</div> <!-- container for floating divs-->
+</div>
+ 
+
+<!------------------------------- End Content -------------------------------->
+
+			</div> <!-- end of #main-content -->
+			<br style="clear:both;">
+		</div> <!-- end of #content -->
+	</div> <!-- end of #column-wrapper -->
+		
+	<div id="footer" class="noprint">
+		<div class="misc-footer-links">
+			<a href="http://mathforum.org/announce/privacy.html">Privacy Policy</a>
+			<a href="http://mathforum.org/announce/terms.html">Terms of Use</a>
+			<a href="http://mathforum.org/appreciation.html">Collaborators</a>
+			<a href="http://www.drexel.edu/ia/mathforum/">Contribute</a>
+			<a href="http://mathforum.org/powcontact.html">Contact Us</a>
+		</div> <!-- end of #misc-footer-links -->
+		<br/>
+		<div class="copyright">
+			&copy; Drexel University 2013. All Rights Reserved.<br/>
+			The Math Forum is a research and educational enterprise of the <a href="http://drexel.edu/soe">Drexel University School of Education</a>.
+		</div> <!-- end of #copyright -->
+	</div> <!-- end of #footer -->
+
+	<!-- THIS IS FOR PRINT ONLY -->
+	<div class="for-print">
+		<hr/>
+		<span class="align-left">
+		&copy; 2013 Drexel University. All Rights Reserved.
+		</span>
+		<span class="align-right">
+		http://mathforum.org/pows/
+		</span>
+	</div> <!-- end of #for-print -->
+</div> <!--  end of #wrapper -->
+</body>
+</html>
+</html>
