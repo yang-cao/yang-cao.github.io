@@ -101,7 +101,7 @@ Database Theory and Systems, especially:
         <ul>
       
 <li><b>
-<cite> <a href="papers/vldb17.pdf">Data Driven Approximation with Bounded Resources</a> </cite></b>
+<cite> <a href="http://dl.acm.org/ft_gateway.cfm?id=3099628&ftid=1875534&dwn=1&#URLTOKEN#">Data Driven Approximation with Bounded Resources</a> </cite></b>
     [&nbsp;<a href="./papers/VLDB17.pptx">Slides</a>&nbsp;] 
     [topic 1]<br>
 <em>  The 43rd International Conference on Very Large Data Bases (VLDB)</em>, Munich, Germany, 2017.<br>
@@ -113,7 +113,7 @@ Database Theory and Systems, especially:
 
 
             <li><b>
-                <cite> <a href="papers/BEAS.pdf">
+                <cite> <a href="http://dl.acm.org/authorize?N46911">
                         BEAS: Bounded Evaluation of SQL Queries
             </a> </cite></b>[topic 1]<br>
             <em> ACM SIGMOD Conference on Management of Data  (SIGMOD),</em>
@@ -129,7 +129,7 @@ Database Theory and Systems, especially:
 
 
         <li>
-        <cite><b><a href="./papers/GRAPE.pdf">Parallelizing Sequential Graph Computations</a></b> </cite>
+        <cite><b><a href="http://dl.acm.org/authorize?N46910">Parallelizing Sequential Graph Computations</a></b> </cite>
             [topic 2]
             <br>
             <em>ACM SIGMOD Conference on Management of Data (SIGMOD)</em>, Chicago, IL USA, 2017 (<em><font color="RED">the Best Paper Award</font></em>).<br>
@@ -168,9 +168,6 @@ Database Theory and Systems, especially:
                            <br><p>
                            <br></p><p>
                            </p></li>
-
-
-
         </ul>
 
 
@@ -398,6 +395,9 @@ Database Theory and Systems, especially:
 		<style>.A{text-decoration:none}</style>
 		<h3>Services</h3>
         <ul>
+    <li><!--font face="Arial"-->
+            <a>PC member: EDBT 2018</a>
+            </li>
             <li><!--font face="Arial"-->
             <a>External reviewer: VLDB 2016</a>
             </li>
